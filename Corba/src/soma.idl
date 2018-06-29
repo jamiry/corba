@@ -1,0 +1,6 @@
+module somaApp{
+ interface soma{
+ long somar(in long numero1, in long numero2);
+ oneway void shutdown();
+ };
+ };
